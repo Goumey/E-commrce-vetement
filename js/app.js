@@ -56,7 +56,7 @@ index--;
                 $("#blockConfirme").show()
                 $("#confirme").hide()
                 $("#bravo").show(1000)
-            var v=    $("#h1").show(2000)
+            var v= $("#h1").show(2000)
             if (  $("#h1").is(v) ) {
                 $("#blockConfirme").fadeOut(8000)  
                }
