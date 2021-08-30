@@ -1,0 +1,157 @@
+ * {
+     box-sizing: border-box;
+ }
+
+
+ body {
+     margin:0 ; 
+     background-color: rgb(242,245,247);
+     width: 100%;
+     height: 100vh;
+     display: flex; 
+     justify-content: center;
+     align-items:center;
+     
+ }
+
+ .main {
+     
+     width: 700px;
+     background-color: #fff;
+    text-align: center;
+    padding:30px; 
+    box-shadow: 3px 3px 10px #777;
+ }
+ .main form {
+     display: flex;
+     background-color: rgb(242,245,247);
+     padding: 30px; 
+    
+ }
+
+ .main form  .form-group {
+     display: flex; 
+     margin: 0 8px; 
+ }
+  .form-group label {
+      margin:0 5px ; 
+  }
+
+ input[type=text], input[type=number]  {
+     width: 80px;
+     padding: 5px;
+ }
+ .main section {
+     display: flex;
+     margin:20px 0 ; 
+     padding:20px;
+ }
+
+ .main section .block-image {
+     border: 2px solid white;
+     margin-right: 30px ;
+     position: relative;
+    box-shadow:  3px 3px 0 0 rgba(3, 3, 3,0.3), 0 0 3px 3px rgba(7, 7, 7,0.3);
+ }
+ .resultat {
+     margin:30px 0 ; 
+ }
+ .block-image img{
+margin: 0 15px;
+ }
+#previous{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+
+}
+
+#next{
+    position: absolute;
+    top: 50%;
+    right:0;
+    transform: translateY(-50%);
+
+}
+.block-image button{
+    background-color: transparent;
+    border: none;
+}
+#previous:hover,#next:hover{
+color: #777;
+}
+.block-image i{
+font-size: 1.8em;
+}
+.finalisation button{
+    padding: 3px 10px;
+    background-color: orangered;
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 35px;
+    font-size: 1.4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.blockConfirme{
+    background-color: rgba(12, 12, 12,0.6);
+    height: 120%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow-y: visible;
+position: absolute;
+display: none;
+}
+.confirmer{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: rgb(255, 251, 251);
+    width: 300px;
+
+    font-family: monospace;
+ 
+}
+.confirmer button{ 
+    width: 150px;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: green;
+    border: none;
+    border-radius: 8px;
+ 
+}
+#bravo{
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 5px;
+    border-radius: 8px;
+    box-shadow:  3px 10px 0 0 rgb(255, 254, 254), 0 0 10px 10px rgb(255, 254, 254);
+    display: none;
+}
+
+#bravo img{
+    padding:0 auto;
+}
+#bravo #h1 {
+    color: green;
+    font-size: 2.8em;
+    display: none;
+    padding:0 auto;
+    margin:0 auto;
+}
+#bravo .h1{
+    color: rgba(12, 12, 12,0.5);
+
+
+}
